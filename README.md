@@ -56,7 +56,8 @@ cd /home/bitco
 
 # Download The Client
 ```
-wget https://github.com/Bitcolojix/btcix/releases/download/v1.10.14/geth_linux
+wget https://github.com/Bitcolojix/btcix/releases/download/v1.10.14/geth_linux.zip
+unzip geth_linux.zip
 chmod +x geth_linux
 wget https://github.com/Bitcolojix/btcix/releases/download/v1.10.14/btcix_genesis.json
 wget https://github.com/Bitcolojix/btcix/releases/download/v1.10.14/config.toml
